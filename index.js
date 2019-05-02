@@ -9,11 +9,13 @@ class Circle{
   }
 
   get circumference(){
-    let pie = Math.PI
+    let pie = Math.PI;
     return 2 * pie * this.radius;
   }
 
   get area(){
-
+    let pie = Math.PI;
+    let rSquared = this.radius * this.radius;
+    return  pie * rSquared; 
   }
 }
