@@ -12,4 +12,8 @@ class Circle{
     let pie = Math.PI
     return 2 * pie * this.radius;
   }
+
+  get area(){
+
+  }
 }
