@@ -20,7 +20,16 @@ class Circle{
   }
 
   set diameter(newDiameter){
-    this.radius = newDiameter / 2;  
+    this.radius = newDiameter / 2;
+  }
+
+  set circumference(newCirc){
+    let pie = Math.PI;
+    this.radius = newCirc / (2 * pie);
+  }
+
+  set area(){
+
   }
 
 }
