@@ -16,11 +16,11 @@ class Circle{
   get area(){
     let pie = Math.PI;
     let rSquared = this.radius * this.radius;
-    return  pie * rSquared; 
+    return  pie * rSquared;
   }
 
   set diameter(newDiameter){
     this.radius = newDiameter / 2;  
   }
- 
+
 }
