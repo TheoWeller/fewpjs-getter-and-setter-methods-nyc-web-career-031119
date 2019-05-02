@@ -30,7 +30,7 @@ class Circle{
 
   set area(newArea){
     let pie = Math.PI;
-    this.radius = Math.sqrt(newArea / pie)
+    this.radius = Math.sqrt(newArea / pie);
   }
 
 }
