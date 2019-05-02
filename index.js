@@ -28,8 +28,9 @@ class Circle{
     this.radius = newCirc / (2 * pie);
   }
 
-  set area(){
-
+  set area(newArea){
+    let pie = Math.PI;
+    this.radius = Math.sqrt(newArea / pie)
   }
 
 }
